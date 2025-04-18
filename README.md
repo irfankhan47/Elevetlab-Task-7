@@ -1,4 +1,4 @@
-Task 7: Netdata Monitoring on AWS EC2
+# Task 7: Netdata Monitoring on AWS EC2
 Objective:
 Install Netdata on an AWS EC2 instance using Docker to monitor system performance, including CPU, memory, disk usage, and Docker container metrics.
 

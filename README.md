@@ -4,16 +4,16 @@ Objective:
 Install Netdata on an AWS EC2 instance using Docker to monitor system performance, including CPU, memory, disk usage, and Docker container metrics.
 
 Tools Used:
-Netdata (open-source real-time monitoring tool)
-Docker (for containerization)
-AWS EC2 (Amazon Linux 2 / Ubuntu instance)
+- Netdata (open-source real-time monitoring tool)
+- Docker (for containerization)
+- AWS EC2 (Amazon Linux 2 / Ubuntu instance)
 
 Steps to Set Up:
-Launch an EC2 Instance:
-Choose Amazon Linux 2 AMI or Ubuntu 20.04
-Select t2.micro (Free Tier eligible)
-Open port 19999 for Netdata dashboard access
-SSH into the instance using a .pem key pair
+- Launch an EC2 Instance:
+- Choose Amazon Linux 2 AMI or Ubuntu 20.04
+- Select t2.micro (Free Tier eligible)
+- Open port 19999 for Netdata dashboard access
+- SSH into the instance using a .pem key pair
 
 Install Docker on EC2 Instance:
 ```

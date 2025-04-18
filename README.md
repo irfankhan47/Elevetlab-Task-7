@@ -55,29 +55,29 @@ cd /var/log/netdata
 cat error.log
 ```
 
-Metrics Monitored:
-CPU Usage
-Memory Usage
-Disk I/O
-Network Traffic
-Docker Containers Metrics
+- Metrics Monitored:
+- CPU Usage
+- Memory Usage
+- Disk I/O
+- Network Traffic
+- Docker Containers Metrics
 
 Screenshots:
 Netdata Dashboard Before Stress Command:
 
-(Include screenshot here)
+![dashbord main](https://github.com/user-attachments/assets/ca26a126-d91f-43fb-b4cb-a5667ffeb42b)
 
 Netdata Dashboard After Stress Command:
 
-(Include screenshot here)
+![after stress main](https://github.com/user-attachments/assets/523933c0-52e6-46b9-9a4b-15c131eb0efa)
 
 docker ps Output:
 
-(Include screenshot of docker ps showing Netdata container)
+![docker ps](https://github.com/user-attachments/assets/edc84707-12af-4990-919e-f8c61bfddca4)
 
 Log Entries After Stress Test:
 
-(Include screenshot of logs if applicable)
+![logs](https://github.com/user-attachments/assets/bd6fdb6f-46ca-4106-bf3e-dc3438ff47d4)
 
 Conclusion:
 This task demonstrates how to install and use Netdata for system resource monitoring. The stress test showed how Netdata can visualize CPU spikes and trigger alerts in real-time, offering valuable insights into system performance.
